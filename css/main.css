@@ -34,6 +34,9 @@ body {
 .site-nav .link:focus {
   color: var(--accent-colour);
 }
+.site-nav .link.current {
+  color: var(--accent-colour);
+}
 .nav-contacts {
   color: var(--secondary-text-color);
 }
