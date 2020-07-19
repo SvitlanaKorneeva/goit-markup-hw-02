@@ -1,3 +1,20 @@
-body {
-  background-color: white;
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-colour: #2196f3;
+  --logo-title-color: #000000;
+  --main-title-color: #ffffff;
+}
+.button {
+  color: var(--main-title-color);
+  background-color: #f5f4fa;
+}
+
+.button.secondary {
+  color: var(--main-title-color);
+  background-color: var(--accent-colour);
+}
+.list-button,
+.list {
+  list-style: none;
 }
