@@ -1,0 +1,67 @@
+/* цвет основного текста логотипа #000000 */
+/* вторичный цвет текста логотипа голубой #2196F3* /
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет белый #FFFFFF*/
+/* цвет кнопки голубой #188CE8 */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона футера #2F303A*/
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-colour: #2196f3;
+  --logo-title-color: #000000;
+  --main-title-color: #ffffff;
+}
+body {
+  background-color: #ffffff;
+}
+
+.logo {
+  color: var(--accent-colour);
+}
+.logo-title {
+  color: var(--logo-title-color);
+}
+.list {
+  list-style: none;
+}
+/* site nav*/
+.site-nav {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-colour);
+}
+.nav-contacts {
+  color: var(--secondary-text-color);
+}
+.nav-contacts .link:hover,
+.nav-contacts .link:focus {
+  color: var(--accent-colour);
+}
+/* Hero */
+.hero-title {
+  color: var(--main-title-color);
+  background-color: #2f303a;
+}
+
+/* Section */
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/* Features*/
+.features-list .title {
+  color: var(--primary-text-color);
+}
+
+/* Work */
+.work-list .title {
+  color: var(--main-title-color);
+}
+.button {
+  color: var(--main-title-color);
+  background-color: var(--accent-colour);
+}
