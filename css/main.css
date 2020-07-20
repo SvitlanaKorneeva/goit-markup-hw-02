@@ -11,24 +11,48 @@
   --secondary-text-color: #757575;
   --accent-colour: #2196f3;
   --logo-title-color: #000000;
-  --main-title-color: #ffffff;
+  --primary-white-color: #ffffff;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .logo {
   color: var(--accent-colour);
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .logo-title {
   color: var(--logo-title-color);
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .list {
   list-style: none;
 }
 /* site nav*/
-.site-nav {
+.site-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -37,7 +61,7 @@ body {
 .site-nav .link.current {
   color: var(--accent-colour);
 }
-.nav-contacts {
+.nav-contacts .link {
   color: var(--secondary-text-color);
 }
 .nav-contacts .link:hover,
@@ -46,13 +70,29 @@ body {
 }
 /* Hero */
 .hero-title {
-  color: var(--main-title-color);
+  color: var(--primary-white-color);
   background-color: #2f303a;
+
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Section */
 .section-title {
   color: var(--primary-text-color);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.section-descriptions {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Features*/
@@ -61,10 +101,25 @@ body {
 }
 
 /* Work */
-.work-list .title {
-  color: var(--main-title-color);
-}
+.work-list {
+  color: var(--primary-white-color);
+  background-color: beige;
+
+  /* Team */
+   .team-list {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+  }
+
 .button {
-  color: var(--main-title-color);
+  color: var(--primary-white-color);
   background-color: var(--accent-colour);
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-decoration: none;
 }
