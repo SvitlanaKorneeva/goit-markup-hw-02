@@ -3,18 +3,44 @@
   --secondary-text-color: #757575;
   --accent-colour: #2196f3;
   --logo-title-color: #000000;
-  --main-title-color: #ffffff;
+  --primary-white-color: #ffffff;
+  --button-background-color: #f5f4fa;
 }
 .button {
-  color: var(--main-title-color);
+  color: var(--primary-text-color);
   background-color: #f5f4fa;
 }
 
 .button.secondary {
-  color: var(--main-title-color);
+  color: var(--primary-white-color);
   background-color: var(--accent-colour);
 }
-.list-button,
-.list {
+.list-button
+ {
   list-style: none;
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+/* Section */
+.section-title {
+  color: var(--primary-text-color);
+
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+p {
+color: var(--secondary-text-color)
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
 }
