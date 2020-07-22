@@ -113,7 +113,7 @@ body {
     line-height: 1.18;
   }
 
-.button {
+.button-hero {
   color: var(--primary-white-color);
   background-color: var(--accent-colour);
 
