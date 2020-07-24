@@ -1,8 +1,14 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет белый #FFFFFF*/
+/* цвет черный #000000*/
+/* цвет фона наша команда #F5F4FA */
+/* цвет фона футера #2F303A*/
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-colour: #2196f3;
-  --logo-title-color: #000000;
+  --primary-black-color: #000000;
   --primary-white-color: #ffffff;
 }
 body {
@@ -25,13 +31,7 @@ body {
   text-decoration: none;
 }
 .logo-title {
-  color: var(--logo-title-color);
-  font-family: 'Raleway', sans-serif;
-
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 1.19;
-  text-decoration: none;
+  color: var(--primary-black-color);
 }
 .list {
   list-style: none;
@@ -41,8 +41,6 @@ body {
   color: var(--primary-text-color);
 
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.4;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -55,6 +53,9 @@ body {
 }
 .nav-contacts .link {
   color: var(--secondary-text-color);
+
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .nav-contacts .link:hover,
 .nav-contacts .link:focus {
